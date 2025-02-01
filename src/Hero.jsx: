@@ -1,0 +1,15 @@
+import React from "react";
+
+const Hero = () => {
+  return (
+    <section className="bg-blue-600 text-white text-center py-20">
+      <h1 className="text-5xl font-bold">Welcome to My Portfolio</h1>
+      <p className="mt-4 text-xl">Frontend Developer | React Enthusiast</p>
+      <button className="mt-8 px-6 py-2 bg-white text-blue-600 rounded hover:bg-gray-200">
+        View My Work
+      </button>
+    </section>
+  );
+};
+
+export default Hero;
